@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* -------------------- SECCION PRODUCTOS --------------------*/
+.productos{
+    padding: 4rem 0;    
+}
+
+.productos-centro{
+    width: 95vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;    
+}
+
+.producto-img{
+    display: block;
+    width: 100%;
+    min-height: 10rem;
+}
+
+.producto h3{
+    color: #9532c6;
+    font-size: 1.7rem;
+    text-align: center;
+}
+.producto-nombre1{
+    margin-top: 1.5rem;
+}
+.producto-nombre2{
+    margin-bottom: 1.5rem;
+}
+
+
+/* -------------------- SECCION PRODUCTOS --------------------*/
+footer{
+    padding: 2rem 0;
+    color: white;
+    text-align: center;
+    background-color: #d58cfc;
+    min-height: 15rem;
+}
+footer p{
+    font-size: 2rem;
+}
+
+.footer-centro{
+    width: 60vw;
+    margin: auto;
+}
+
+.footer-redes{
+    font-size: 5rem;
+}
