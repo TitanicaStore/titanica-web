@@ -27,6 +27,15 @@ body{
     grid-row-gap: 2rem;    
 }
 
+.mates-centro{
+    width: 95vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;    
+}
+
 .producto-img{
     display: block;
     width: 100%;
@@ -46,7 +55,7 @@ body{
 }
 
 
-/* -------------------- SECCION PRODUCTOS --------------------*/
+/* -------------------- SECCION FOOTER --------------------*/
 footer{
     padding: 2rem 0;
     color: white;
@@ -65,4 +74,52 @@ footer p{
 
 .footer-redes{
     font-size: 5rem;
+}
+
+/*---ULTIMOS ESTILOS AGREGADOS GERA---*/
+
+header{
+    background: url(assets/img/banner1_MesaDeTrabajo.png);
+    background-size: contain;
+    height: 45vw;
+    padding: 3.25vw 3vw 0 3vw;
+}
+
+div.container-fluid{
+    padding: 0;
+}
+
+.navbar{
+    padding: 1vw;
+    background-color: rgba(255,255,255, 0.1);
+}
+.navbar-nav{
+    align-items: flex-end;
+}
+
+.navbar-brand img{
+    height: 5vh;
+}
+
+.navbar-toggler{
+    border: none;
+    padding: 0;
+    align-self: flex-start;
+}
+
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.heroText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heroText p {
+    text-align: center;
+    color:white;
+    max-width: 40vw;
 }

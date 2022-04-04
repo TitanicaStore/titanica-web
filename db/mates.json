@@ -1,0 +1,38 @@
+[
+    {
+        "id": "0",
+        "color": "Negro",
+        "tipo": "Boca abierta o cerrada",
+        "imgSrc": "./assets/img/7.png"
+    },
+    {
+        "id": "1",
+        "color": "Negro",
+        "tipo": "Boca abierta o cerrada",
+        "imgSrc": "./assets/img/7.png"
+    },
+    {
+        "id": "2",
+        "color": "Negro",
+        "tipo": "Boca abierta o cerrada",
+        "imgSrc": "./assets/img/7.png"
+    },
+    {
+        "id": "3",
+        "color": "Negro",
+        "tipo": "Boca abierta o cerrada",
+        "imgSrc": "./assets/img/7.png"
+    },
+    {
+        "id": "4",
+        "color": "Negro",
+        "tipo": "Boca abierta o cerrada",
+        "imgSrc": "./assets/img/7.png"
+    },
+    {
+        "id": "5",
+        "color": "Negro",
+        "tipo": "Boca abierta o cerrada",
+        "imgSrc": "./assets/img/7.png"
+    }
+]
