@@ -1,6 +1,6 @@
 //Selects
-const productosDOM = document.querySelector(".productos-centro");
-const matesDOM = document.querySelector(".mates-centro");
+const productosDOM = document.querySelector(".productos-centro") || '';
+const matesDOM = document.querySelector(".mates-centro") || '';
 
 
 
@@ -38,8 +38,6 @@ const mostrarSets = (sets) => {
     productosDOM.innerHTML = resultado;
 }
 
-getSets().then(sets => mostrarSets(sets))
-
 
 // ----------- MAPEO DE MATES -----------
 //obtener los mates
@@ -74,4 +72,10 @@ const mostrarMates = (mates) => {
     matesDOM.innerHTML = resultado;
 }
 
-getMates().then(mates => mostrarMates(mates))
+
+
+if (productosDOM !== ''){
+    getSets().then(sets => mostrarSets(sets))
+}else{
+    getMates().then(mates => mostrarMates(mates))
+}
