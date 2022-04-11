@@ -1,7 +1,7 @@
 //Selects
 const productosDOM = document.querySelector(".productos-centro") || '';
 const matesDOM = document.querySelector(".mates-centro") || '';
-
+const lentesDOM = document.querySelector(".lentes-centro") || '';
 
 
 
@@ -73,9 +73,45 @@ const mostrarMates = (mates) => {
 }
 
 
+// ----------- MAPEO DE LENTES -----------
+//obtener los lentes
+const getLentes = async () => {
+    try{
+        let resultado = await fetch('./db/lentes.json');
+        let data = await resultado.json();
+        return data;
+    }catch(error){
+        console.log(error);
+    }
+}
 
+//mostrar los lentes
+const mostrarLentes = (lentes) => {
+    let resultado = '';
+
+    lentes.forEach(lente => {
+        resultado += `
+        <!-- Producto -->
+        <article class="producto">
+            <div class="img-container">
+                <img src=${lente.imgSrc} alt="${lente.nombre} ${lente.tipo}" class="producto-img">
+            </div>
+            <h3 class="producto-nombre1">${lente.nombre}</h3>
+            <h3 class="producto-nombre2">${lente.tipo}</h3>
+        </article>
+        <!-- Fin producto -->
+    ` 
+    });
+
+    lentesDOM.innerHTML = resultado;
+}
+
+
+//llamada condicional de las funciones
 if (productosDOM !== ''){
     getSets().then(sets => mostrarSets(sets))
-}else{
+}else if(matesDOM !== ''){
     getMates().then(mates => mostrarMates(mates))
+}else{
+    getLentes().then(lentes => mostrarLentes(lentes))
 }

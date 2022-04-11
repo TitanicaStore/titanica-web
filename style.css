@@ -12,6 +12,14 @@ body{
     font-family: 'DM Sans', sans-serif;
 }
 
+a{
+    color: white;
+}
+a:hover{
+    color: white;
+    text-shadow: 0px 0px 10px white;
+}
+
 
 /* -------------------- SECCION PRODUCTOS --------------------*/
 .productos{
@@ -28,6 +36,15 @@ body{
 }
 
 .mates-centro{
+    width: 95vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;    
+}
+
+.lentes-centro{
     width: 95vw;
     margin: 0 auto;
     display: grid;

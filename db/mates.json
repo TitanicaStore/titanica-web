@@ -1,38 +1,56 @@
 [
     {
         "id": "0",
-        "color": "Negro",
+        "color": "Lila",
         "tipo": "Boca abierta o cerrada",
-        "imgSrc": "./assets/img/7.png"
+        "imgSrc": "./assets/img/m-lila.png"
     },
     {
         "id": "1",
-        "color": "Negro",
+        "color": "Turquesa",
         "tipo": "Boca abierta o cerrada",
-        "imgSrc": "./assets/img/7.png"
+        "imgSrc": "./assets/img/m-turquesa.png"
     },
     {
         "id": "2",
-        "color": "Negro",
+        "color": "Beige",
         "tipo": "Boca abierta o cerrada",
-        "imgSrc": "./assets/img/7.png"
+        "imgSrc": "./assets/img/m-beige.png"
     },
     {
         "id": "3",
-        "color": "Negro",
+        "color": "Verde oliva",
         "tipo": "Boca abierta o cerrada",
-        "imgSrc": "./assets/img/7.png"
+        "imgSrc": "./assets/img/m-verde.png"
     },
     {
         "id": "4",
-        "color": "Negro",
+        "color": "Rojo",
         "tipo": "Boca abierta o cerrada",
-        "imgSrc": "./assets/img/7.png"
+        "imgSrc": "./assets/img/m-rojo.png"
+    },
+    {
+        "id": "5",
+        "color": "Rosa",
+        "tipo": "Boca abierta o cerrada",
+        "imgSrc": "./assets/img/m-rosa.png"
     },
     {
         "id": "5",
         "color": "Negro",
         "tipo": "Boca abierta o cerrada",
-        "imgSrc": "./assets/img/7.png"
+        "imgSrc": "./assets/img/m-negro.png"
+    },
+    {
+        "id": "5",
+        "color": "Blanco",
+        "tipo": "Boca abierta o cerrada",
+        "imgSrc": "./assets/img/m-blanco.png"
+    },
+    {
+        "id": "5",
+        "color": "Marrón",
+        "tipo": "Boca abierta o cerrada",
+        "imgSrc": "./assets/img/m-marron.png"
     }
 ]
