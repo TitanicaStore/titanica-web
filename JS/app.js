@@ -168,9 +168,10 @@ const mostrarRelojes = (relojes) => {
             </div>
             <div>
                 ${Array.isArray(reloj.nombre) ? reloj.nombre.map( nom => {
-                    return `<h3 class="item-multiple">${nom}</h3>`
+                    return `<h3 class="item-multiple">${nom}</h3>`;
                 }) : `<h3 class="producto-nombre1">${reloj.nombre}</h3>`}
             <h3 class="producto-nombre2">${reloj.tipo}</h3>
+            </div>
         </article>
         <!-- Fin producto -->
     ` 
