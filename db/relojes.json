@@ -1,0 +1,50 @@
+[
+    {
+        "id": "0",
+        "nombre": ["Art.1: Rojo", "Art.2: Dorado","Art.3: Blanco"],
+        "tipo": "",
+        "imgSrc": "./assets/img/art123.jpg"
+    },
+    {
+        "id": "1",
+        "nombre": ["Art.4: Negro malla imantados", "Art5. Negro con strass"],
+        "tipo": "",
+        "imgSrc": "./assets/img/art45.jpg"
+    },
+    {
+        "id": "2",
+        "nombre": "Art.6",
+        "tipo": "Reloj digital, no táctil, la malla la podés sacar. Muestra hora, fecha y segundos.",
+        "imgSrc": "./assets/img/art6.jpg"
+    },
+    {
+        "id": "3",
+        "nombre": "Art.7",
+        "tipo": "Relojes táctiles, muestra hora, fecha y segundos.",
+        "imgSrc": "./assets/img/art7.jpg"
+    },
+    {
+        "id": "4",
+        "nombre": "Art. 8",
+        "tipo": "Reloj dorado, malla imantada, táctil, muestra la hora, fecha y segundos.",
+        "imgSrc": "./assets/img/art8.jpg"
+    },
+    {
+        "id": "5",
+        "nombre": "Art. 9",
+        "tipo": "Reloj negro, malla imantada, táctil, muestra la hora, fecha y segundos.",
+        "imgSrc": "./assets/img/art9.jpg"
+    },
+    {
+        "id": "6",
+        "nombre": "Art. 10",
+        "tipo": "Reloj dorado, malla imantada, táctil, muestra la hora, fecha y segundos.",
+        "imgSrc": "./assets/img/art10.jpg"
+    },
+    {
+        "id": "7",
+        "nombre": "Art. 11",
+        "tipo": "Reloj negro malla imantada, táctil, muestra la hora, fecha y segundos.",
+        "imgSrc": "./assets/img/art11.jpg"
+    }
+]

@@ -35,24 +35,6 @@ a:hover{
     grid-row-gap: 2rem;    
 }
 
-.mates-centro{
-    width: 95vw;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    grid-column-gap: 1.5rem;
-    grid-row-gap: 2rem;    
-}
-
-.lentes-centro{
-    width: 95vw;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    grid-column-gap: 1.5rem;
-    grid-row-gap: 2rem;    
-}
-
 .producto-img{
     display: block;
     width: 100%;
@@ -69,6 +51,12 @@ a:hover{
 }
 .producto-nombre2{
     margin-bottom: 1.5rem;
+}
+.item-multiple{
+    margin-bottom: .5rem;
+}
+.item-multiple:first-child{
+    margin-top: 1.5rem;
 }
 
 

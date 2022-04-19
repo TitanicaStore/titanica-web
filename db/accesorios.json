@@ -1,0 +1,62 @@
+[
+    {
+        "id": "0",
+        "nombre": "Collar de cadena de mariposa",
+        "tipo": "Collar de acero dorado, el dije de mariposa es de acrílico. (descuento comprando el conjunto).",
+        "imgSrc": "./assets/img/cc-mariposa.jpg"
+    },
+    {
+        "id": "1",
+        "nombre": "Aros de mariposa",
+        "tipo": "Dijes de acrílico. (descuento comprando el conjunto).",
+        "imgSrc": "./assets/img/a-mariposa.jpg"
+    },
+    {
+        "id": "2",
+        "nombre": "Collar de perlas de mariposa",
+        "tipo": "Collar de perlas el dije de mariposa es de acrílico. (descuento comprando el conjunto).",
+        "imgSrc": "./assets/img/cp-mariposa.jpg"
+    },
+    {
+        "id": "3",
+        "nombre": "Aros fimo",
+        "tipo": "",
+        "imgSrc": "./assets/img/a-fimo.jpg"
+    },
+    {
+        "id": "4",
+        "nombre": "Collar de perlas",
+        "tipo": "",
+        "imgSrc": "./assets/img/c-perlas.jpg"
+    },
+    {
+        "id": "5",
+        "nombre": "Collar dorado doble",
+        "tipo": "",
+        "imgSrc": "./assets/img/c-dorado.jpg"
+    },
+    {
+        "id": "6",
+        "nombre": "Collar plateado doble",
+        "tipo": "",
+        "imgSrc": "./assets/img/c-plat.jpg"
+    },
+    {
+        "id": "7",
+        "nombre": "Collar dije de corazón",
+        "tipo": "",
+        "imgSrc": "./assets/img/c-corazon.jpg"
+    },
+    {
+        "id": "8",
+        "nombre": "Body Chain",
+        "tipo": "",
+        "imgSrc": "./assets/img/body-ch.jpg"
+    },
+    {
+        "id": "9",
+        "nombre": "Collar dije smiley",
+        "tipo": "",
+        "imgSrc": "./assets/img/c-smiley.jpg"
+    }
+]
