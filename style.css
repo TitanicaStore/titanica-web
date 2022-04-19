@@ -95,7 +95,7 @@ div.container-fluid{
 
 .navbar{
     padding: 1vw;
-    background-color: rgba(255,255,255, 0.1);
+    background-color: rgba(255,255,255, 0.05);
 }
 .navbar-nav{
     align-items: flex-end;
