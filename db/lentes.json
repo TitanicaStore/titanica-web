@@ -1,0 +1,38 @@
+[
+    {
+        "id": "0",
+        "nombre": "Lentes de sol",
+        "tipo": "Art. 1",
+        "imgSrc": "./assets/img/lentes-1.jpg"
+    },
+    {
+        "id": "1",
+        "nombre": "Lentes de sol",
+        "tipo": "Art. 2",
+        "imgSrc": "./assets/img/lentes-2.jpg"
+    },
+    {
+        "id": "2",
+        "nombre": "Lentes de sol",
+        "tipo": "Art. 3",
+        "imgSrc": "./assets/img/lentes-3.jpg"
+    },
+    {
+        "id": "3",
+        "nombre": "Lentes de sol",
+        "tipo": "Art. 4",
+        "imgSrc": "./assets/img/lentes-4.jpg"
+    },
+    {
+        "id": "4",
+        "nombre": "Lentes de sol",
+        "tipo": "Art. 5",
+        "imgSrc": "./assets/img/lentes-5.jpg"
+    },
+    {
+        "id": "5",
+        "nombre": "Lentes de sol",
+        "tipo": "Art. 6",
+        "imgSrc": "./assets/img/lentes-6.jpg"
+    }
+]

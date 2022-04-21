@@ -1,0 +1,146 @@
+[
+    {
+        "id": "0",
+        "nombre": "Set matero Lila",
+        "tipo": "Mate boca cerrada",
+        "imgSrc": "./assets/img/sm-lila_bc.png"
+    },
+    {
+        "id": "1",
+        "nombre": "Set matero Lila",
+        "tipo": "Mate boca abierta",
+        "imgSrc": "./assets/img/sm-lila_ba.png"
+    },
+    {
+        "id": "2",
+        "nombre": "Set matero Blanco",
+        "tipo": "Mate boca cerrada",
+        "imgSrc": "./assets/img/sm-blanco_bc.png"
+    },
+    {
+        "id": "3",
+        "nombre": "Set matero Blanco",
+        "tipo": "Mate boca abierta",
+        "imgSrc": "./assets/img/sm-blanco_ba.png"
+    },
+    {
+        "id": "4",
+        "nombre": "Set matero Negro",
+        "tipo": "Mate boca cerrada",
+        "imgSrc": "./assets/img/sm-negro_bc.png"
+    },
+    {
+        "id": "5",
+        "nombre": "Set matero Negro",
+        "tipo": "Mate boca abierta",
+        "imgSrc": "./assets/img/sm-negro_ba.png"
+    },
+    {
+        "id": "6",
+        "nombre": "Set matero Rosa",
+        "tipo": "Mate boca cerrada",
+        "imgSrc": "./assets/img/sm-rosa_bc.png"
+    },
+    {
+        "id": "7",
+        "nombre": "Set matero Rosa",
+        "tipo": "Mate boca abierta",
+        "imgSrc": "./assets/img/sm-rosa_ba.png"
+    },
+    {
+        "id": "8",
+        "nombre": "Set matero Verde oliva",
+        "tipo": "Mate boca cerrada",
+        "imgSrc": "./assets/img/sm-verde_bc.png"
+    },
+    {
+        "id": "9",
+        "nombre": "Set matero Verde oliva",
+        "tipo": "Mate boca abierta",
+        "imgSrc": "./assets/img/sm-verde_ba.png"
+    },
+    {
+        "id": "10",
+        "nombre": "Set matero Rojo",
+        "tipo": "Mate boca cerrada",
+        "imgSrc": "./assets/img/sm-rojo_bc.png"
+    },
+    {
+        "id": "11",
+        "nombre": "Set matero Rojo",
+        "tipo": "Mate boca abierta",
+        "imgSrc": "./assets/img/sm-rojo_ba.png"
+    },
+    {
+        "id": "12",
+        "nombre": "Set matero Negro",
+        "tipo": "Mate Blanco boca cerrada",
+        "imgSrc": "./assets/img/sm-negro_bc-blanco.png"
+    },
+    {
+        "id": "13",
+        "nombre": "Set matero Negro",
+        "tipo": "Mate Blanco boca abierta",
+        "imgSrc": "./assets/img/sm-negro_ba-blanco.png"
+    },
+    {
+        "id": "14",
+        "nombre": "Set matero Blanco",
+        "tipo": "Mate Turquesa boca cerrada",
+        "imgSrc": "./assets/img/sm-blanco_bc-turquesa.png"
+    },
+    {
+        "id": "15",
+        "nombre": "Set matero Blanco",
+        "tipo": "Mate Turquesa boca abierta",
+        "imgSrc": "./assets/img/sm-blanco_ba-turquesa.png"
+    },
+    {
+        "id": "16",
+        "nombre": "Set matero Blanco",
+        "tipo": "Mate Verde oliva boca abierta",
+        "imgSrc": "./assets/img/sm-blanco_ba-verde.png"
+    },
+    {
+        "id": "17",
+        "nombre": "Set matero Blanco",
+        "tipo": "Mate Beige boca abierta",
+        "imgSrc": "./assets/img/sm-blanco_ba-beige.png"
+    },
+    {
+        "id": "18",
+        "nombre": "Set matero Rosa",
+        "tipo": "Mate Blanco boca cerrada",
+        "imgSrc": "./assets/img/sm-rosa_bc-blanco.png"
+    },
+    {
+        "id": "19",
+        "nombre": "Set matero Rosa",
+        "tipo": "Mate Blanco boca abierta",
+        "imgSrc": "./assets/img/sm-rosa_ba-blanco.png"
+    },
+    {
+        "id": "20",
+        "nombre": "Set matero Blanco",
+        "tipo": "Mate Bordo boca cerrada",
+        "imgSrc": "./assets/img/sm-blanco_bc-bordo.png"
+    },
+    {
+        "id": "21",
+        "nombre": "Set matero Blanco",
+        "tipo": "Mate Bordo boca abierta",
+        "imgSrc": "./assets/img/sm-blanco_ba-bordo.png"
+    },
+    {
+        "id": "22",
+        "nombre": "Set matero Lila",
+        "tipo": "Mate Blanco boca cerrada",
+        "imgSrc": "./assets/img/sm-lila_bc-blanco.png"
+    },
+    {
+        "id": "23",
+        "nombre": "Set matero Lila",
+        "tipo": "Mate Blanco boca abierta",
+        "imgSrc": "./assets/img/sm-lila_ba-blanco.png"
+    }
+]
