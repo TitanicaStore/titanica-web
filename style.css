@@ -85,8 +85,9 @@ footer p{
 header{
     background: url(assets/img/banner1_MesaDeTrabajo.png);
     background-size: contain;
-    height: 45vw;
-    padding: 3.25vw 3vw 0 3vw;
+    background-repeat: no-repeat;
+    height: 44.9vw;
+    padding: 3.25vw;
 }
 
 div.container-fluid{
@@ -94,11 +95,14 @@ div.container-fluid{
 }
 
 .navbar{
-    padding: 1vw;
+    padding: 2vw;
+    margin: 2.5vw 2.2vw;
     background-color: rgba(255,255,255, 0.1);
 }
+
 .navbar-nav{
     align-items: flex-end;
+    font-size: 1.3vw;
 }
 
 .navbar-brand img{
@@ -119,11 +123,18 @@ div.container-fluid{
 .heroText{
     display: flex;
     flex-direction: column;
+    height: 100%;
     align-items: center;
+    justify-content: center;
 }
 
 .heroText p {
     text-align: center;
     color:white;
     max-width: 40vw;
+}
+
+.heroText h1{
+    font-size: 3vw;
+    font-weight: bold;
 }
