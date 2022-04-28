@@ -134,7 +134,7 @@ const mostrarAccesorios = (accesorios) => {
                 <img src=${accesorio.imgSrc} alt="${accesorio.nombre} ${accesorio.tipo}" class="producto-img">
             </div>
             <h3 class="producto-nombre1">${accesorio.nombre}</h3>
-            <h3 class="producto-nombre2">${accesorio.tipo}</h3>
+            <p class="producto-nombre2">${accesorio.tipo}</p>
         </article>
         <!-- Fin producto -->
     ` 
@@ -193,5 +193,17 @@ if (setMatesDOM !== ''){
 } else if (relojesDOM !== ''){
     getRelojes().then(relojes => mostrarRelojes(relojes))
 } else {
-    productosDOM.innerHTML = 'No hay elementos para mostrar';
+    productosDOM.innerHTML = `
+    <div>
+        <h3 class="producto-nombre1">Te damos la bienvenida a nuestro catálogo online, dónde vas a poder ver todos nuestros productos.</h3>
+        <p>Si querés comprar alguno o tenes dudas comunícate con nosotras por medio de nuestras redes o WhatsApp.</p>
+        <div class="homeRedes">
+            <a href="https://www.instagram.com/titanica_store/"><i class="icono fa fa-instagram"></i></a>
+            <a href="https://web.whatsapp.com/"><i class="icono fa fa-whatsapp"></i></a>
+        </div>
+        <p>Hacemos envios a distintos puntos de la provincia de Salta, ya sea Capital, Rosario de Lerma, Campo Quijano y Cerrillos.</p>
+        <p>También podés pasar por nuestro showroom (pedimos la dirección por mensaje directo).</p>
+        <p>Recibimos todos los medios de pago. Con tarjeta de crédito hay un 10% de interés.</p>
+    </div>
+`;
 }

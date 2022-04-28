@@ -21,73 +21,21 @@ a:hover{
 }
 
 
-/* -------------------- SECCION PRODUCTOS --------------------*/
-.productos{
-    padding: 4rem 0;    
-}
-
-.productos-centro{
-    width: 95vw;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    grid-column-gap: 1.5rem;
-    grid-row-gap: 2rem;    
-}
-
-.producto-img{
-    display: block;
-    width: 100%;
-    min-height: 10rem;
-}
-
-.producto h3{
-    color: #9532c6;
-    font-size: 1.7rem;
-    text-align: center;
-}
-.producto-nombre1{
-    margin-top: 1.5rem;
-}
-.producto-nombre2{
-    margin-bottom: 1.5rem;
-}
-.item-multiple{
-    margin-bottom: .5rem;
-}
-.item-multiple:first-child{
-    margin-top: 1.5rem;
-}
-
-/* -------------------- SECCION FOOTER --------------------*/
-footer{
-    padding: 2rem 0;
-    color: white;
-    text-align: center;
-    background-color: #d58cfc;
-    min-height: 15rem;
-}
-footer p{
-    font-size: 2rem;
-}
-
-.footer-centro{
-    width: 60vw;
-    margin: auto;
-}
-
-.footer-redes{
-    font-size: 5rem;
-}
-
-/*---ULTIMOS ESTILOS AGREGADOS GERA---*/
+/* -------------------- NAVBAR --------------------*/
 
 header{
     background: url(assets/img/banner1_MesaDeTrabajo.png);
     background-size: contain;
     background-repeat: no-repeat;
-    height: 44.9vw;
+    height: 46vw;
     padding: 3.25vw;
+}
+
+header.index{
+    background: url(assets/img/home.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
 }
 
 div.container-fluid{
@@ -129,12 +77,100 @@ div.container-fluid{
 }
 
 .heroText p {
+    font-size: 2vw;
     text-align: center;
     color:white;
-    max-width: 40vw;
+    max-width: 70vw;
 }
 
 .heroText h1{
-    font-size: 3vw;
+    font-size: 6vw;
     font-weight: bold;
+}
+
+
+/* -------------------- SECCION PRODUCTOS --------------------*/
+.productos{
+    padding: 4rem 0;    
+}
+
+#HOME{
+    text-align: center;
+    font-size: 2.3vw;
+    max-width: 60vw;
+}
+#HOME h3{
+    font-size: 2.3vw;
+    color: #9532c6;
+    margin-bottom: 1.5rem;
+}
+.homeRedes{
+    display: inline-block;
+    background-color: #9532c6;
+    padding: 0 1vw;
+    border-radius: 1vw;
+    vertical-align: middle;
+    margin-bottom: 1.5rem;
+}
+.homeRedes a{
+    vertical-align: middle;
+}
+
+.productos-centro{
+    width: 95vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;    
+}
+
+.producto-img{
+    display: block;
+    width: 100%;
+    min-height: 10rem;
+}
+
+.producto h3{
+    color: #9532c6;
+    font-size: 1.7rem;
+    text-align: center;
+}
+.producto p{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.producto-nombre1{
+    margin-top: 1.5rem;
+}
+.producto-nombre2{
+    margin-bottom: 1.5rem;
+}
+.item-multiple{
+    margin-bottom: .5rem;
+}
+.item-multiple:first-child{
+    margin-top: 1.5rem;
+}
+
+/* -------------------- SECCION FOOTER --------------------*/
+footer{
+    padding: 2rem 0;
+    color: white;
+    text-align: center;
+    background-color: #d58cfc;
+    min-height: 15rem;
+}
+footer p{
+    font-size: 2.3vw;
+}
+
+.footer-centro{
+    width: 60vw;
+    margin: auto;
+}
+
+.footer-redes{
+    font-size: 5rem;
 }
