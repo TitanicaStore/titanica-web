@@ -199,7 +199,7 @@ if (setMatesDOM !== ''){
         <p>Si querés comprar alguno o tenes dudas comunícate con nosotras por medio de nuestras redes o WhatsApp.</p>
         <div class="homeRedes">
             <a href="https://www.instagram.com/titanica_store/"><i class="icono fa fa-instagram"></i></a>
-            <a href="https://web.whatsapp.com/"><i class="icono fa fa-whatsapp"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=543875963394"><i class="icono fa fa-whatsapp"></i></a>
         </div>
         <p>Hacemos envios a distintos puntos de la provincia de Salta, ya sea Capital, Rosario de Lerma, Campo Quijano y Cerrillos.</p>
         <p>También podés pasar por nuestro showroom (pedimos la dirección por mensaje directo).</p>
