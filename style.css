@@ -12,6 +12,10 @@ body{
     font-family: 'DM Sans', sans-serif;
 }
 
+body.home{
+    max-height: 100vh;
+}
+
 a{
     color: white;
 }
@@ -53,8 +57,12 @@ div.container-fluid{
     font-size: 1.3vw;
 }
 
+.navbar-brand{
+    padding: 0;
+}
+
 .navbar-brand img{
-    height: 5vh;
+    height: calc(10px + 3vw);
 }
 
 .navbar-toggler{
@@ -66,6 +74,20 @@ div.container-fluid{
 .navbar-toggler:focus{
     outline: none;
     box-shadow: none;
+}
+
+.navbar-toggler-icon{
+    height: 4vw;
+    width: 4vw;
+}
+
+.nav-item{
+    font-size: calc(10px + 1.5vw);
+    line-height: calc(12px + 1.5vw);
+}
+
+.nav-link{
+    padding: .5vw 0;
 }
 
 .heroText{
@@ -88,6 +110,7 @@ div.container-fluid{
     font-weight: bold;
 }
 
+.navbar
 
 /* -------------------- SECCION PRODUCTOS --------------------*/
 .productos{
@@ -96,21 +119,21 @@ div.container-fluid{
 
 #HOME{
     text-align: center;
-    font-size: 2.3vw;
-    max-width: 60vw;
+    font-size: calc(12px + 1.5vw)
 }
 #HOME h3{
-    font-size: 2.3vw;
+    font-size: calc(12px + 1.5vw);
     color: #9532c6;
     margin-bottom: 1.5rem;
 }
+
 .homeRedes{
     display: inline-block;
     background-color: #9532c6;
     padding: 0 1vw;
     border-radius: 1vw;
     vertical-align: middle;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 .homeRedes a{
     vertical-align: middle;
