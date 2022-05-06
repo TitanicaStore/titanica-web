@@ -49,6 +49,7 @@ div.container-fluid{
 .navbar{
     padding: 2vw;
     margin: 2.5vw 2.2vw;
+    padding-bottom: 1vw;
     background-color: rgba(255,255,255, 0.1);
 }
 
@@ -77,8 +78,8 @@ div.container-fluid{
 }
 
 .navbar-toggler-icon{
-    height: 4vw;
-    width: 4vw;
+    height: 3.5vw;
+    width: 3.5vw;
 }
 
 .nav-item{
@@ -99,14 +100,16 @@ div.container-fluid{
 }
 
 .heroText p {
-    font-size: 2vw;
+    font-size: calc(5px + 1.5vw);
+    margin-bottom: 1vw;
     text-align: center;
     color:white;
-    max-width: 70vw;
+    max-width: 80vw;
 }
 
 .heroText h1{
-    font-size: 6vw;
+    font-size: calc(12px + 3vw);
+    margin-bottom: 1vw;
     font-weight: bold;
 }
 
@@ -119,7 +122,7 @@ div.container-fluid{
 
 #HOME{
     text-align: center;
-    font-size: calc(12px + 1.5vw)
+    font-size: calc(12px + 1.5vw);
 }
 #HOME h3{
     font-size: calc(12px + 1.5vw);
